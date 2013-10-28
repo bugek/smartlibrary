@@ -1,0 +1,80 @@
+h1			{ margin: 0; padding: 10px 0; font-size: 2em; }
+ul, li		{ list-style: none; padding: 0; margin: 0; position: relative; }
+a			{ color: #333; }
+a:hover		{ color: #333; text-decoration: none;  }
+
+.icon		{ display: block; width: 120px; height: 110px; background: url(../images/icon.png) left top no-repeat; text-align:center; }
+.learn			{ background-position: 0 0; color: #fff; font-size: 5.5em;  }
+.learn:hover	{ background-position: 0 -110px; color: #fff; font-size: 5.5em;  }
+.assign			{ background-position: -120px 0; color: #333; font-size: 5.5em;  }
+.assign:hover	{ background-position: -120px -110px; color: #333; font-size: 5.5em;  }
+.les			{ background-position: -240px 0; color: #333; font-size: 4.5em; line-height: 1.8em; }
+.les:hover		{ background-position: -240px -110px; color: #333; font-size: 4.5em; line-height: 1.8em; }
+.ass			{ background-position: -360px 10px; color: #333; font-size: 0.8em; padding-top: 70px; overflow:hidden; line-height: 1.8em; }
+.ass:hover		{ background-position: -360px -100px; color: #333; font-size: 0.8em; padding-top: 70px; overflow:hidden; line-height: 1.8em; }
+.sim			{ background-position: -480px 10px; color: #333; font-size: 0.8em; padding-top: 70px; line-height: 1.8em; overflow:hidden; line-height: 1.8em; }
+.sim:hover		{ background-position: -480px -100px; color: #333; font-size: 0.8em; padding-top: 70px; line-height: 1.8em; overflow:hidden; line-height: 1.8em; }
+.ebook			{ background-position: -600px 10px; color: #333; font-size: 0.8em; padding-top: 70px; overflow:hidden; line-height: 1.8em; }
+.ebook:hover		{ background-position: -600px -100px; color: #333; font-size: 0.8em; padding-top: 70px; overflow:hidden; line-height: 1.8em; }
+
+.book	{ position: relative; display: block; width: 140px; height: 150px; padding-top: 45px; background: url(../images/book.png) left top no-repeat; text-align:center;  }
+.sub_thai	{ background-position: 0 0; }
+.sub_math	{ background-position: -140px 0; }
+.sub_sci	{ background-position: -280px 0; }
+.sub_hist	{ background-position: -420px 0; }
+.sub_buddhism	{ background-position: -560px 0; }
+.sub_social	{ background-position: -700px 0; }
+.sub_opp	{ background-position: 0 -150px; }
+.sub_art	{ background-position: -140px -150px; }
+.sub_music	{ background-position: -280px -150px; }
+.sub_health	{ background-position: -420px -150px; }
+.sub_eng	{ background-position: -560px -150px; }
+
+.container	{ max-width: 1024px; height: 600px; overflow: hidden; }
+.bookshelf	{ background: #fff url(../images/bg_bookshelf.png) left top no-repeat; overflow-y: scroll; }
+.bookInner	{ background: #2AABD2 url(../images/background.jpg) left top no-repeat; }
+
+.topbar		{ height: 50px; padding-top: 2px; }
+.tp_thai	{ background-color: #9e7eb9; }
+.tp_math	{ background-color: #034ea2; }
+.tp_sci	{ background-color: #00aeb4; }
+.tp_hist	{ background-color: #995c1c; }
+.tp_buddhism	{ background-color: #f99d1c; }
+.tp_social	{ background-color: #d0432f; }
+.tp_opp	{ background-color: #88ac2e; }
+.tp_art	{ background-color: #832d6a; }
+.tp_music	{ background-color: #f3716d; }
+.tp_health	{ background-color: #00bdf2; }
+.tp_eng	{ background-color: #0095da; }
+.title		{ text-align: center; }
+
+.shelf			{ margin-top: 30px; height: 130px; background: url(../images/bg_shelf.png) center top no-repeat; }
+.unit_title		{ margin-left: 75px; margin-top: 50px; font-size: 1.2em; }
+.unit			{ margin-top: 9px; height: 120px; overflow-x: scroll; overflow-y: hidden; }
+.unit-list		{ margin:  0; padding:  0; }
+.unit-list	li	{ float: left; positoin: relative; }
+
+.container-content		{ padding: 10px; }
+.content	{ padding: 10px; background-color: #fff; border-radius: 15px; }
+.box		{ border-radius: 10px; border: 1px solid #c9946d; background-color: #c9946d; }
+.box h3		{ padding: 10px; margin: 0; border-top-left-radius: 13px; border-top-right-radius: 13px; }
+
+.boxEach	{ background-color: #fff; margin: 0 10px; overflow-y: scroll; overflow-x: hidden; }
+.topic	{ height: 280px; }
+.topic li	{ border-bottom: 1px solid #c9946d; }
+.topic a		{ display: block; padding: 10px; }
+.topic a:hover		{ display: block; background-color: #dfbfa7; }
+
+.lesson	{ height: 250px; }
+.lesson	li	{ float: left; positoin: relative; margin: 0 13px; }
+
+.extra	{ height: 250px; }
+.extra	li	{ float: left; positoin: relative; margin: 0 5px; }
+
+
+.shelf_layer	{ margin: 50px 0; height: 180px; background: url(../images/shelf_layer.png) center bottom no-repeat; } 
+.shelf_layer li	{ float: left; positoin: relative; }
+.shelf_layer li.left { margin-left: 200px; }
+.shelf_layer li.mid { margin: 0 85px; }
+.shelf_layer li.right { margin-right: 200px; }
+.shelf_layer p.hasextra { position: absolute; bottom: 0; text-align: center; width: 140px; }
